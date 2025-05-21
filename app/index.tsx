@@ -1,8 +1,8 @@
-import { useState } from "react";
-import { Text, View, TextInput, Button, ScrollView } from "react-native";
-import { Image } from "expo-image";
+import TextRecognition from "@react-native-ml-kit/text-recognition";
 import * as FileSystem from "expo-file-system";
-import { TextRecognition } from "react-native-ml-kit";
+import { Image } from "expo-image";
+import { useState } from "react";
+import { Button, ScrollView, Text, TextInput, View } from "react-native";
 
 export default function Index() {
   const [imageUrl, setImageUrl] = useState("");
